@@ -1,0 +1,121 @@
+/* polices */
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1{
+    font-family: 'Abril FatFace';
+}
+/* intro */
+.center{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.icon {
+    color: black;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+.intro{
+    margin-bottom: 50px;
+}
+
+.intro-sub{
+    background-color : rgb(37, 35, 35);
+    
+}
+
+
+
+.presentation{
+    background : url(../assets/header-bg.png);
+    background-size: cover;
+    height: 400px;
+    
+}
+
+
+
+
+
+.social-buttons>li{
+    display: inline;
+    margin: 10px;
+    
+    
+}
+
+
+
+.dev{
+    text-transform: uppercase;
+}
+
+/* presentation */
+
+
+
+.sub-personnal-info {
+   list-style-type: none;
+}
+
+.sub-personnal-info>li{
+    
+    border: solid 1px;
+    border-color:rgb(139, 139, 139);padding: 10px;
+}
+
+.personnal-info{
+
+    margin-bottom: 50px;
+}
+
+.photo-id{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+}
+
+
+
+
+
+  /* Caroussel */
+
+.carousel{
+    margin: 20px 0px;
+
+}
+
+.info-project{
+    color : black;
+    background-color:rgba(255,255,255,0.5);
+}
+.go-project{
+    margin: auto;
+
+    margin-bottom: 20px;
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(37, 35, 35);
+    color: white;
+    font-size: small;
+}
