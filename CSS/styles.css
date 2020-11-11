@@ -11,9 +11,29 @@
 h1{
     font-family: 'Abril FatFace';
 }
+
+.marge{
+    margin-left: 5em;
+}
+
+.title{
+    margin: 50px;
+}
+
+/* navbar */
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
 /* intro */
-.center{
+.center-intro{
     padding-top: 100px;
+    text-align: center;
+}
+
+.center{
     text-align: center;
 }
 
@@ -65,29 +85,17 @@ h1{
 }
 
 /* presentation */
-
-
-
-.sub-personnal-info {
-   list-style-type: none;
+.card{
+    padding: auto;
+    font-size: small;
 }
 
-.sub-personnal-info>li{
-    
-    border: solid 1px;
-    border-color:rgb(139, 139, 139);padding: 10px;
-}
-
-.personnal-info{
-
-    margin-bottom: 50px;
-}
-
-.photo-id{
+.card-img-top{
     
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    
+   
     
 }
 
@@ -102,9 +110,16 @@ h1{
 
 }
 
-.info-project{
+.see-project{
     color : black;
     background-color:rgba(255,255,255,0.5);
+    padding: 10px 20px;
+}
+
+h5{
+    color: red;
+    background-color: rgba(255,255,255,0.5);
+    padding: -40px;
 }
 .go-project{
     margin: auto;
