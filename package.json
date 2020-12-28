@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-loic-lamaille",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoicLamaille/Portfolio-Loic-Lamaille.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoicLamaille/Portfolio-Loic-Lamaille/issues"
+  },
+  "homepage": "https://github.com/LoicLamaille/Portfolio-Loic-Lamaille#readme",
+  "dependencies": {
+    "jump.js": "^1.0.2"
+  }
+}
